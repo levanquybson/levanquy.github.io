@@ -1,79 +1,34 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Lê Văn Quý - Giáo viên Toán</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lê Văn Quý</title>
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #2c3e50;
-      color: white;
-      padding: 1.5rem;
-      text-align: center;
-    }
-    section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-      background-color: white;
-      margin-top: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #777;
-    }
-    .contact a {
-      color: #2980b9;
-      text-decoration: none;
-    }
+    body{margin:0;padding:0;font-family:sans-serif;background:#f8f8f8;text-align:center}
+    header{background:url('https://via.placeholder.com/1200x300')center/cover no-repeat;height:300px;position:relative}
+    .avatar{width:150px;height:150px;border-radius:50%;border:4px solid #fff;position:absolute;bottom:-75px;left:50%;transform:translateX(-50%);}
+    main{padding-top:100px}
+    h1{margin:0;font-size:2.5rem}
+    p.desc{font-size:1.1rem;color:#555}
+    .links{margin-top:30px;display:flex;flex-direction:column;align-items:center;}
+    .links a{margin:8px 0;padding:12px 40px;background:#007bff;color:#fff;text-decoration:none;border-radius:6px;width:80%;max-width:300px;transition:0.3s}
+    .links a:hover{background:#0056b3;}
+    footer{margin:40px 0;font-size:0.9rem;color:#888;}
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>Thầy Lê Văn Quý</h1>
-    <p>Giáo viên Toán - THPT Bình Sơn, Quảng Ngãi</p>
-  </header>
-
-  <section>
-    <h2>🧭 Giới thiệu</h2>
-    <p>
-      Tôi là giáo viên Toán với hơn 15 năm kinh nghiệm giảng dạy và bồi dưỡng học sinh giỏi THPT. Đặc biệt đam mê các ứng dụng thực tế của đạo hàm và tư duy giải toán sáng tạo.
-    </p>
-  </section>
-
-  <section>
-    <h2>📚 Tài liệu & bài giảng</h2>
-    <ul>
-      <li><a href="#">Chuyên đề: Ứng dụng đạo hàm trong bài toán thực tế</a></li>
-      <li><a href="#">Chuyên đề: Hàm hợp và cực trị</a></li>
-      <li><a href="#">Bộ đề thi thử Toán 2025 (cập nhật liên tục)</a></li>
-    </ul>
-  </section>
-
-  <section class="contact">
-    <h2>📬 Liên hệ</h2>
-    <p>Email: <a href="mailto:levanquy.toan@gmail.com">levanquy.toan@gmail.com</a></p>
-    <p>Facebook: <a href="https://facebook.com/levanquy" target="_blank">facebook.com/levanquy</a></p>
-  </section>
-
-  <footer>
-    © 2025 - Lê Văn Quý. Thiết kế đơn giản với HTML & GitHub Pages.
-  </footer>
-
+  <header><img src="https://via.placeholder.com/150" alt="avatar" class="avatar"></header>
+  <main>
+    <h1>Lê Văn Quý</h1>
+    <p class="desc">Giáo viên Toán THPT Bình Sơn, Quảng Ngãi – Chia sẻ tài liệu, bài giảng</p>
+    <div class="links">
+      <a href="https://facebook.com" target="_blank">Facebook: Lê Văn Quý</a>
+      <a href="https://zalo.me" target="_blank">Zalo: Lê Văn Quý</a>
+      <a href="https://www.youtube.com" target="_blank">YouTube: Toán học phổ thông</a>
+      <a href="mailto:levanquythptbson@gmil.com">Gmail: levanquythptbson@gmil.com</a>
+    </div>
+  </main>
+  <footer>© 2025 Lê Văn Quý</footer>
 </body>
 </html>
